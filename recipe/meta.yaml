@@ -23,9 +23,9 @@ requirements:
     - vim
     - pkg-config
   host:
-    - kim-api =2.1.3=h4333106_4
+    - kim-api
   run:
-    - kim-api =2.1.3=h4333106_4
+    - kim-api
 
 test:
   commands:
