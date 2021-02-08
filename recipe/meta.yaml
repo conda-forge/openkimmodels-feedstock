@@ -10,7 +10,7 @@ source:
   sha256: 50338084ece92ec0fb13b0bbdf357b5d7450e26068ba501f23c315f814befc26
 
 build:
-  number: 6
+  number: 7
   skip: true  # [win]
 
 requirements:
@@ -18,7 +18,7 @@ requirements:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
     - {{ compiler('fortran') }}
-    - cmake
+    - cmake <=3.18.2
     - make
     - vim
     - pkg-config
