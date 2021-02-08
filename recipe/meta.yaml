@@ -18,14 +18,14 @@ requirements:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
     - {{ compiler('fortran') }}
-    - cmake <=3.18.2
+    - cmake
     - make
     - vim
     - pkg-config
   host:
-    - kim-api <=2.2.0
+    - kim-api
   run:
-    - kim-api <=2.2.0
+    - kim-api
 
 test:
   commands:
