@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: openkimmodels
-  version: "2021.01.28"
+  version: 2021.01.28
 
 package:
   name: ${{ name|lower }}
